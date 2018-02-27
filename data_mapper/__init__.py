@@ -1,2 +1,1 @@
-def foo():
-    return 'bar'
+from .arrange import arrange
