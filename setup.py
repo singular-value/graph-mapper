@@ -4,7 +4,7 @@ with open('README', 'r') as f:
     readme = f.read()
 
 setup(name='data_mapper',
-      version='0.1',
+      version='0.2',
       description='Uses graph partitioning techniques to assign data to physical locations',
       long_description=readme,
       url='http://github.com/singular-value/data_mapper',
