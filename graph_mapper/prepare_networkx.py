@@ -3,7 +3,7 @@ import networkx as nx
 G = nx.Graph()
 
 def get_networkx(qasm_filepath):
-    with open('qasm_filepath', 'r') as fp:
+    with open(qasm_filepath, 'r') as fp:
         G.graph['edge_weight_attr'] = 'weight'
         for i, line in enumerate(fp):
             if i % 1000 == 0:
